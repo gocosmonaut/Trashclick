@@ -1,0 +1,32 @@
+/* UNIVERSAL */
+
+.front h1.page-header { display:none;}
+
+/* CONTAINER */
+
+div.container {width:100%;}
+div.container div.view-id-front {}
+div.container div.view-id-front  h2  {font-size:1.25em;}
+div.container div.view-id-front  h2 a  {}
+div.container div.view-id-front img {width:100%; height:auto;}
+
+@media(min-width:2000px) {
+}
+
+@media(min-width:1600px) and (max-width:1999px){
+}
+
+@media(min-width:1200px) and (max-width:1599px){
+}
+
+@media(min-width:992px) and (max-width:1199px){
+}
+
+@media(min-width:768px) and (max-width:991px){
+}
+
+@media(min-width:481px) and (max-width:767px){
+}
+
+@media (max-width:480px){
+}

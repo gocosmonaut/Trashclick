@@ -1,14 +1,79 @@
+/* SAMPLE QUERIES */
+
+@media(min-width:2000px) {
+}
+
+@media(min-width:1600px) and (max-width:1999px){
+}
+
+@media(min-width:1200px) and (max-width:1599px){
+}
+
+@media(min-width:992px) and (max-width:1199px){
+}
+
+@media(min-width:768px) and (max-width:991px){
+}
+
+@media(min-width:481px) and (max-width:767px){
+}
+
+@media (max-width:480px){
+}
+
 /* UNIVERSAL */
 
 .front h1.page-header { display:none;}
+h2 {margin:0px;}
 
 /* CONTAINER */
 
-div.container {width:100%;}
-div.container div.view-id-front {}
-div.container div.view-id-front  h2  {font-size:1.25em;}
-div.container div.view-id-front  h2 a  {}
-div.container div.view-id-front img {width:100%; height:auto;}
+div.container {width:100%; max-width:2000px;margin:0px auto; padding:0% 1.5%;}
+
+
+@media(min-width:2000px) {
+}
+
+@media(min-width:1600px) and (max-width:1999px){
+}
+
+@media(min-width:1200px) and (max-width:1599px){
+}
+
+@media(min-width:992px) and (max-width:1199px){
+}
+
+@media(min-width:768px) and (max-width:991px){
+}
+
+@media(min-width:481px) and (max-width:767px){
+}
+
+@media (max-width:480px){
+}
+
+/* FRONT PAGE */
+div.view-id-front {}
+div.view-id-front {}
+div.view-id-front tr td {width:22%; }
+div.view-id-front tr td div.node { border:1px solid black;width:98%;margin:1%;}
+div.view-id-front tr td.col-first div.node { margin-left:0%;}
+div.view-id-front tr td.col-last div.node { margin-right:0%;}
+div.view-id-front tr td div.node { border:1px solid #aaa;width:98%;margin:1%;}
+div.view-id-front tr td div.node h2 {padding:4%; line-height:100%; background:#f0f0f0;}
+div.view-id-front tr td div.node h2 a {font-size:.8em;}
+div.view-id-front tr td div.node img {width:100%; height:auto;overflow:hidden;}
+div.view-id-front tr td div.node div.field-name-field-release-date {padding:4% 4% 0% 4%;}
+div.view-id-front tr td div.node div.field-name-field-list-source {padding:0% 4% 4% 4%;}
+
+div.views-column.views-column-1 {width:18%; float:left;}
+div.views-column.views-column-2 {width:18%;  float:left;}
+div.views-column.views-column-3 {width:18%;  float:left;}
+div.views-column.views-column-4 {width:18%;  float:left;}
+div.views-column.views-column-5 {width:18%; float:right;}
+
+/* responsive grid, 5 column, vert */
+
 
 @media(min-width:2000px) {
 }

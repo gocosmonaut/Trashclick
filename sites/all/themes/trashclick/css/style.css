@@ -23,8 +23,16 @@
 
 /* UNIVERSAL */
 
+body {background:#f7f4ea;}
+div#overlay a, div#overlay p {font-size:1.25em;} 
 .front h1.page-header { display:none;}
 h2 {margin:0px;}
+a {color:#6d3475;}
+a:hover {text-decoration:none; color:#b830da;}
+div:hover, a img:hover {transition: all 0.1s ease 0.1s;}
+
+/* ADMIN THEME LEGIBILITY */
+div.breadcrumb a,  div#overlay p, div#overlay select, div#overlay select.form-select, div#overlay table td, div#overlay input, div#overlay div {font-size:1.25em;} 
 
 /* CONTAINER */
 
@@ -54,23 +62,101 @@ div.container {width:100%; max-width:2000px;margin:0px auto; padding:0% 1.5%;}
 
 /* FRONT PAGE */
 div.view-id-front {}
-div.view-id-front {}
-div.view-id-front tr td {width:22%; }
-div.view-id-front tr td div.node { border:1px solid black;width:98%;margin:1%;}
-div.view-id-front tr td.col-first div.node { margin-left:0%;}
-div.view-id-front tr td.col-last div.node { margin-right:0%;}
-div.view-id-front tr td div.node { border:1px solid #aaa;width:98%;margin:1%;}
-div.view-id-front tr td div.node h2 {padding:4%; line-height:100%; background:#f0f0f0;}
-div.view-id-front tr td div.node h2 a {font-size:.8em;}
-div.view-id-front tr td div.node img {width:100%; height:auto;overflow:hidden;}
-div.view-id-front tr td div.node div.field-name-field-release-date {padding:4% 4% 0% 4%;}
-div.view-id-front tr td div.node div.field-name-field-list-source {padding:0% 4% 4% 4%;}
+div.view-id-front div.views-column.views-column {width:16.666%; float:left;}
+div.view-id-front div.views-column.views-column-last {margin-right:0%; float:right;}
+div.view-id-front div.views-column.views-column div.field-name-field-list-image {background:purple; border-top:1px solid #bbb;}
+div.view-id-front div.views-column.views-column img {width:100%; height:auto;}
+div.view-id-front div.views-column.views-column a img:hover {opacity:.8;}
 
-div.views-column.views-column-1 {width:18%; float:left;}
-div.views-column.views-column-2 {width:18%;  float:left;}
-div.views-column.views-column-3 {width:18%;  float:left;}
-div.views-column.views-column-4 {width:18%;  float:left;}
-div.views-column.views-column-5 {width:18%; float:right;}
+div.view-id-front div.views-column.views-column div.node {border:1px solid #bbb; margin:0% 4% 4% 0%; background:white;}
+
+div.view-id-front div.views-column.views-column div.node:hover {background:#f0f0f0;
+box-shadow:2px 2px 3px #ccc; border:1px solid purple;}
+
+div.view-id-front div.views-column.views-column div.node ul,
+div.view-id-front div.views-column.views-column div.node ol {
+	margin:12px 0 9px;
+	background:white;
+	padding:0px 12px 0px 36px;
+}
+
+div.view-id-front div.views-column.views-column div.node li a {
+	font-weight:700;
+}
+
+
+div.view-id-front div.views-column.views-column div.node li a:hover {
+color:red;
+}
+div.view-id-front div.views-column.views-column div.node ul.links.list-inline,
+div.view-id-front div.views-column.views-column div.node ol.links.list-inline {
+	margin:0px;
+	background:white;
+}
+
+div.view-id-front div.views-column.views-column div.node li.node-readmore {display:none;}
+
+div.view-id-front div.views-column.views-column div.node div.trashexpand {}
+div.view-id-front div.views-column.views-column div.node div.trashexpand h3 {background: none repeat scroll 0 0 #6d3475;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 2% 4%;
+    text-align: center;
+    text-transform: uppercase;}
+	
+div.view-id-front div.views-column.views-column-2 div.node div.trashexpand h3,
+div.view-id-front div.views-column.views-column-4 div.node div.trashexpand h3,
+div.view-id-front div.views-column.views-column-6 div.node div.trashexpand h3{
+	background:#38263b;
+}
+	
+div.view-id-front div.views-column.views-column div.node div.trashexpand h3 a {font-weight:700; color:white; letter-spacing: 0.5px; display:block;
+}
+
+div.view-id-front div.views-column.views-column div.node div.trashexpand h3 a:hover {color:gold;
+}
+
+
+div.view-id-front div.views-column.views-column-last div.node {margin-right:0%;}
+
+div.view-id-front div.views-column.views-column div.node h2,
+div.view-id-front div.views-column.views-column div.node div.field-name-field-release-date,
+div.view-id-front div.views-column.views-column div.node div.field-name-field-list-source {
+	padding:5%;
+}
+
+div.view-id-front div.views-column.views-column div.node h2 {
+	padding-bottom:1%;
+	padding-top:5%;
+	font-size:1.625em;
+}
+
+div.view-id-front div.views-column.views-column div.node h2 a:hover {
+	color:magenta;
+}
+
+
+div.view-id-front div.views-column.views-column-2 div.node h2 a,
+div.view-id-front div.views-column.views-column-4 div.node h2 a,
+div.view-id-front div.views-column.views-column-6 div.node  h2 a {
+	color:#38263b;
+}
+
+div.view-id-front div.views-column.views-column div.node div.field-name-field-list-source {
+	padding-top:0%;
+	padding-bottom:2%;
+}
+
+div.view-id-front div.views-column.views-column div.node div.field-name-field-release-date {
+	padding-top:0%;
+	padding-bottom:0%;
+}
+
+div.view-id-front div.views-column.views-column div.node  li {font-size:1.15em; line-height:160%; font-weight:400;}
+
+div.view-id-front div.views-column.views-column div.node  li:nth-child(1n) {background:white;}
+div.view-id-front div.views-column.views-column div.node  li:nth-child(2n) {background:#f0f0f0;}
+
 
 /* responsive grid, 5 column, vert */
 

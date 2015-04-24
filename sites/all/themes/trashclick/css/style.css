@@ -62,22 +62,19 @@ div.container {width:100%; max-width:2000px;margin:0px auto; padding:0% 1.5%;}
 
 /* FRONT PAGE */
 div.view-id-front {}
-div.view-id-front div.views-column.views-column {width:16.666%; float:left;}
-div.view-id-front div.views-column.views-column-last {margin-right:0%; float:right;}
+div.view-id-front div.views-column.views-column {width:15.25%; float:left;margin:0% 1.625% 0% 0%;}
+div.view-id-front div.views-column.views-column-last {margin-right:0%; float:right; }
 div.view-id-front div.views-column.views-column div.field-name-field-list-image {background:purple; border-top:1px solid #bbb;}
 div.view-id-front div.views-column.views-column img {width:100%; height:auto;}
 div.view-id-front div.views-column.views-column a img:hover {opacity:.8;}
 
-div.view-id-front div.views-column.views-column div.node {border:1px solid #bbb; margin:0% 4% 4% 0%; background:white;}
+div.view-id-front div.views-column.views-column div.node {border:1px solid #bbb;  background:white url(../../../../default/files/dog_ear.png) top right no-repeat; border-radius:0px  4px 0px 0px; margin-bottom:10%;}
 
 div.view-id-front div.views-column.views-column div.node:hover {background:#f0f0f0;
 box-shadow:2px 2px 3px #ccc; border:1px solid purple;}
 
-div.view-id-front div.views-column.views-column div.node ul,
-div.view-id-front div.views-column.views-column div.node ol {
-	margin:12px 0 9px;
-	background:white;
-	padding:0px 12px 0px 36px;
+div.view-id-front div.views-column.views-column div.node ul { margin:12px 0 9px; background:white; padding:0px 12px 0px 24px;}
+div.view-id-front div.views-column.views-column div.node ol {margin:12px 0 9px; background:white; padding:0px 12px 0px 32px;
 }
 
 div.view-id-front div.views-column.views-column div.node li a {
@@ -98,11 +95,12 @@ div.view-id-front div.views-column.views-column div.node li.node-readmore {displ
 
 div.view-id-front div.views-column.views-column div.node div.trashexpand {}
 div.view-id-front div.views-column.views-column div.node div.trashexpand h3 {background: none repeat scroll 0 0 #6d3475;
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin: 0;
-    padding: 2% 4%;
+    padding: 3% 4%;
     text-align: center;
-    text-transform: uppercase;}
+    text-transform: uppercase;
+}
 	
 div.view-id-front div.views-column.views-column-2 div.node div.trashexpand h3,
 div.view-id-front div.views-column.views-column-4 div.node div.trashexpand h3,
@@ -110,7 +108,7 @@ div.view-id-front div.views-column.views-column-6 div.node div.trashexpand h3{
 	background:#38263b;
 }
 	
-div.view-id-front div.views-column.views-column div.node div.trashexpand h3 a {font-weight:700; color:white; letter-spacing: 0.5px; display:block;
+div.view-id-front div.views-column.views-column div.node div.trashexpand h3 a {font-weight:400; color:white; letter-spacing: 0.5px; display:block;
 }
 
 div.view-id-front div.views-column.views-column div.node div.trashexpand h3 a:hover {color:gold;
@@ -128,7 +126,7 @@ div.view-id-front div.views-column.views-column div.node div.field-name-field-li
 div.view-id-front div.views-column.views-column div.node h2 {
 	padding-bottom:1%;
 	padding-top:5%;
-	font-size:1.625em;
+	font-size:1.5em;
 }
 
 div.view-id-front div.views-column.views-column div.node h2 a:hover {
@@ -144,15 +142,25 @@ div.view-id-front div.views-column.views-column-6 div.node  h2 a {
 
 div.view-id-front div.views-column.views-column div.node div.field-name-field-list-source {
 	padding-top:0%;
-	padding-bottom:2%;
+	padding-bottom:0%;
+	font-size:0.9em;
+}
+
+div.view-id-front div.views-column.views-column div.node div.field-name-field-list-source a {
+	color:#666;
 }
 
 div.view-id-front div.views-column.views-column div.node div.field-name-field-release-date {
 	padding-top:0%;
-	padding-bottom:0%;
+	padding-bottom:2%;
+	font-size:0.8em;
+	color:#999;
 }
 
-div.view-id-front div.views-column.views-column div.node  li {font-size:1.15em; line-height:160%; font-weight:400;}
+div.view-id-front div.views-column.views-column div.node  li {font-size: 1em;
+    font-weight: 400;
+    line-height: 155%;
+    padding: 1px 3px;}
 
 div.view-id-front div.views-column.views-column div.node  li:nth-child(1n) {background:white;}
 div.view-id-front div.views-column.views-column div.node  li:nth-child(2n) {background:#f0f0f0;}

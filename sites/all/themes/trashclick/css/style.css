@@ -68,7 +68,10 @@ div.view-id-front div.views-column.views-column div.field-name-field-list-image 
 div.view-id-front div.views-column.views-column img {width:100%; height:auto;}
 div.view-id-front div.views-column.views-column a img:hover {opacity:.8;}
 
-div.view-id-front div.views-column.views-column div.node {border:1px solid #bbb;  background:white url(../../../../default/files/dog_ear.png) top right no-repeat; border-radius:0px  4px 0px 0px; margin-bottom:10%;}
+div.view-id-front div.views-column.views-column div.node {border-color: #bbb #999 #000 #bbb;
+    border-radius: 0 5px 0 0;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;background:white url(../../../../default/files/dog_ear.png) top right no-repeat; border-radius:0px  4px 0px 0px; margin-bottom:10%;}
 
 div.view-id-front div.views-column.views-column div.node:hover {background:#f0f0f0;
 box-shadow:2px 2px 3px #ccc; border:1px solid purple;}

@@ -40,14 +40,11 @@ div.breadcrumb a,  div#overlay p, div#overlay select, div#overlay select.form-se
 header.navbar-fixed-top.navbar-default.affix-top {background:#555;} /* positioned at top */
 header.navbar-fixed-top.navbar-default.affix {background:red;} /* scrolled down */
 header#navbar div.container {width:100%; padding:0% 2%; max-width:2100px;}
-div.main-container {width:98%; max-width:2100px;margin:0px auto; padding:2%; background:#f7f4ea;}
+div.main-container {width:98%; max-width:2100px;margin:0px auto; padding:2%; background:#ece8dc;}
 
 
-li.statistics_counter { border-radius: 15% 0% 0% 15%;
-    bottom: 60px;background:black !important;
-    position: absolute;
-    right: 0px;padding:0px;}
-li.statistics_counter span { padding:2px 4px; color:white;}
+
+li.statistics_counter { display:none;}
 
 @media(min-width:2000px) {
 }
@@ -208,6 +205,32 @@ div.views-column.views-column div.node blockquote.image-field-caption p {font-si
 
 @media (max-width:480px){
 	div.view-id-front div.views-column.views-column {width:100%; float:left;margin:0% 2.5% 0% 0%;}
+}
+
+/* TEASER */
+
+p.node-reads {display:block; background:url(../../../../../sites/default/files/60black.png)!important; border-radius: 30% 0 0 30%; bottom: 55px; color: white; padding: 3px 5px 3px 6px; position: absolute; right: 0; }
+p.node-reads img {width:12px !important; height:auto !important; margin:0px 4px 2px 0px;}
+
+@media(min-width:2000px) {
+}
+
+@media(min-width:1600px) and (max-width:1999px){
+}
+
+@media(min-width:1200px) and (max-width:1599px){
+}
+
+@media(min-width:992px) and (max-width:1199px){
+}
+
+@media(min-width:768px) and (max-width:991px){
+}
+
+@media(min-width:481px) and (max-width:767px){
+}
+
+@media (max-width:480px){
 }
 
 /* NODE PAGES */

@@ -212,6 +212,7 @@ div.view-id-front div.views-column.views-column div.node div.field-name-field-re
 }
 
 div.view-id-front div.views-column.views-column div.node  li {font-size: 1em;
+letter-spacing:-.25px;
     font-weight: 400;
     line-height: 155%;
     padding: 1px 3px;}

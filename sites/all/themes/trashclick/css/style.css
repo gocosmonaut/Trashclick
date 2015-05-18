@@ -226,7 +226,8 @@ div.views-column.views-column div.node blockquote.image-field-caption p { bottom
     color: white;
     float: left;
     font-size: 0.8em;
-    margin-top: -25px;
+	text-align:left;
+    margin-top: -30px;
     padding: 3px 5px 3px 10px;
     position: relative;
     text-shadow: 1px 1px 1px black;}
@@ -267,7 +268,7 @@ div.views-column.views-column div.node blockquote.image-field-caption p { bottom
 div.views-column.views-column div.node div.field-name-field-body-count{background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border: 0 none !important;
     padding: 0;
-	margin-top:-50px;
+	margin-top:-55px;
     position: absolute;
     text-align: center;}
 div.views-column.views-column div.node div.field-name-field-body-count  p.node-reads {background: black; repeat scroll 0 0 !important;

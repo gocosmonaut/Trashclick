@@ -32,7 +32,7 @@ h1.page-header {border:0px; padding:0px;line-height:130%; color:#3b1f08;}
 h2 {margin:0px;}
 a {color:#6d3475;}
 a:hover {text-decoration:none; color:#b830da;}
-div:hover, a img:hover, .affix, .affix-top, :focus {transition: all 0.1s ease 0.1s;}
+div:hover, a img:hover, .affix, .affix-top, :focus, li a:hover {transition: all 0.1s ease 0.1s;}
 .caption{} 
 b, strong {color:#360d56;}
 div.views-exposed-form { text-align:center;}
@@ -48,7 +48,7 @@ ul.pagination li.active a:hover, ul.pagination li a:hover, ul.pagination li a:fo
 div#edit-field-list-topics-tid-wrapper { width:20%; margin: 0px 40%;}
 div.form-item-field-list-topics-tid select {font-size:1.5em; line-height:125%; height:40px;}
 
-/* slogan off */ p.lead {display:none;}
+
 
 
 @media(min-width:2000px) {
@@ -84,9 +84,15 @@ div.breadcrumb a,  div#overlay p, div#overlay select, div#overlay select.form-se
 
 /* CONTAINER */
 header.navbar-fixed-top.navbar-default.affix-top {background:#ca2b79;} /* positioned at top */
-header.navbar-fixed-top.navbar-default.affix {opacity:.9; background:#9d1759;}/* scrolled down */
+header.navbar-fixed-top.navbar-default.affix {opacity:.92; background:#9d1759;}/* scrolled down */
 header#navbar div.container {width:100%; padding:0% 2%; max-width:2100px;}
 div.main-container {width:98%; max-width:2100px;margin:0px auto; padding:2%; background:#ece8dc;   box-shadow: 0 0 10px #aaa inset}
+
+.navbar-default .navbar-nav a, .navbar-default .navbar-nav a.active  {background: inherit; background-position:right; background-repeat:repeat-y; background-image:url(../../../../default/files/divider.png); color:white; padding:15px 10px;}
+.navbar-default .navbar-nav a:hover, .navbar-default .navbar-nav a.active:hover  { background: #6d3475; color:white;}
+.navbar-default .navbar-nav li.last a, .navbar-default .navbar-nav li.last a.active {background-image:none;}
+
+
 
 li.statistics_counter { display:none;}
 
@@ -246,7 +252,9 @@ div.views-column.views-column div.node blockquote.image-field-caption p { bottom
 
 @media(min-width:992px) and (max-width:1199px){
 	div.view-id-front div.views-column.views-column {width:18.5%; float:left;margin:0% 1.75% 0% 0%;}
-	div.view-id-front div.views-column.views-column.views-column-5 {margin-right:0px;}
+	div.view-id-front div.views-column.views-column.views-column-3 {float:left;}
+	div.view-id-front div.views-column.views-column.views-column-4 {float:left;}
+	div.view-id-front div.views-column.views-column.views-column-5 {margin-right:0px; }
 }
 
 @media(min-width:768px) and (max-width:991px){
@@ -256,7 +264,9 @@ div.views-column.views-column div.node blockquote.image-field-caption p { bottom
 
 @media(min-width:481px) and (max-width:767px){
 		div.view-id-front div.views-column.views-column {width:48.375%; float:left;margin:0% 2.5% 0% 0%;}
-		div.view-id-front div.views-column.views-column.views-column-2 {margin-right:0px;}
+		div.view-id-front div.views-column.views-column.views-column-2, div.view-id-front div.views-column.views-column.views-column-3 {margin-right:0px;}
+		div.view-id-front div.views-column.views-column.views-column-5 {float:left; }
+		div.view-id-front div.views-column.views-column.views-column-3, 	div.view-id-front div.views-column.views-column.views-column-6  {float:right;}
 }
 
 @media (max-width:480px){

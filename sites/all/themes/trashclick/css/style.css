@@ -23,7 +23,7 @@
 
 /* UNIVERSAL */
 
-body {}
+body { }
 
 div#overlay a, div#overlay p {font-size:1.25em;} 
 .navbar-default .navbar-brand {color:white; font-size:1.4em;}
@@ -47,6 +47,9 @@ ul.pagination li.active a:hover, ul.pagination li a:hover, ul.pagination li a:fo
 
 div#edit-field-list-topics-tid-wrapper { width:20%; margin: 0px 40%;}
 div.form-item-field-list-topics-tid select {font-size:1.5em; line-height:125%; height:40px;}
+
+div.strip {text-align:center; background:black; padding:3px 0px;}
+div.strip span {padding-left:6px; color:white;}
 
 
 
@@ -83,15 +86,21 @@ h1.page-header {font-size:2em;}
 div.breadcrumb a,  div#overlay p, div#overlay select, div#overlay select.form-select, div#overlay table td, div#overlay input, div#overlay div {font-size:1.25em;} 
 
 /* CONTAINER */
-header.navbar-fixed-top.navbar-default.affix-top {background:#ca2b79;} /* positioned at top */
-header.navbar-fixed-top.navbar-default.affix {opacity:.92; background:#9d1759;}/* scrolled down */
-header#navbar div.container {width:100%; padding:0% 2%; max-width:2100px;}
-div.main-container {width:98%; max-width:2100px;margin:0px auto; padding:2%; background:#ece8dc;   box-shadow: 0 0 10px #aaa inset}
+ul.navbar-nav {padding:0px; margin:0px; text-align:center; width:100%;}
+ul.navbar-nav  li {width:8.33333%;}
+header.navbar-fixed-top.navbar-default.affix-top {background:#ca2b79; border-top:6px solid black;} /* positioned at top */
+header.navbar-fixed-top.navbar-default.affix {opacity:.92; background:#9d1759; border-top: 2px solid #ca2b79;}/* scrolled down */
+header#navbar div.container {width:100%; padding:0%; max-width:2100px;}
+div.main-container {width:98%; max-width:2100px;margin:40px auto 0 auto; padding:2%; background:#ece8dc;   box-shadow: 0 0 10px #aaa inset}
 
-.navbar-default .navbar-nav a, .navbar-default .navbar-nav a.active  {background: inherit; background-position:right; background-repeat:repeat-y; background-image:url(../../../../default/files/divider.png); color:white; padding:15px 10px;}
+.container > .navbar-header, .container > .navbar-collapse {padding:0px !important;}
+div.navbar-header {text-align:center;}
+.navbar-default .navbar-nav a, .navbar-default .navbar-nav a.active  {background: inherit; background-position:right; background-repeat:repeat-y; background-image:url(../../../../default/files/divider.png); color:white; padding:6px 0px; font-size:.9em; letter-spacing:-0.25px;}
 .navbar-default .navbar-nav a:hover, .navbar-default .navbar-nav a.active:hover  { background: #6d3475; color:white;}
 .navbar-default .navbar-nav li.last a, .navbar-default .navbar-nav li.last a.active {background-image:none;}
 
+.navbar-toggle {float:none; margin:5px 0px; width:12%; padding:6px; border-radius:6px;} /* increase width with smaller screens */
+.navbar-toggle .icon-bar {width:90%; margin:0px 5%;}
 
 
 li.statistics_counter { display:none;}
@@ -112,10 +121,14 @@ li.statistics_counter { display:none;}
 }
 
 @media(min-width:481px) and (max-width:767px){
+	ul.navbar-nav li { float: left;
+    width: 50%;}
 }
 
 @media (max-width:480px){
 	div.main-container {width:96%; margin:0px auto; padding:4%; background:#ece8dc;}
+	ul.navbar-nav li { float: left;
+    width: 50%;}
 }
 
 /* FRONT PAGE */

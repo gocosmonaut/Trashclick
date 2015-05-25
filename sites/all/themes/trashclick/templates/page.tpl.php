@@ -73,8 +73,15 @@
  * @ingroup themeable
  */
 ?>
-<header id="navbar" data-spy="affix" data-offset-top="45" role="banner" class="<?php print $navbar_classes; ?>">
-  <div class="container">  
+
+
+<header id="navbar" data-spy="affix" data-offset-top="45" role="banner" class="<?php print $navbar_classes; ?>"><div class="strip">
+ <?php if ($logo): ?>
+      <a  href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+      </a><span>A More Efficient Way to Waste Time. One-Click Lists.</span>
+      <?php endif; ?></div>
+  <div class="container">     
     <div class="navbar-header">
   
  
@@ -113,6 +120,7 @@
 <div class="main-container container">
 
   <header role="banner" id="page-header">
+  
     <?php if (!empty($site_slogan)): ?>
       <p class="lead"><?php print $site_slogan; ?></p>
     <?php endif; ?>
@@ -124,11 +132,7 @@
 
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="col-sm-3 left" role="complementary">
-     <?php if ($logo): ?>
-      <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-      </a>
-      <?php endif; ?>
+
         <?php print render($page['sidebar_first']); ?>
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>

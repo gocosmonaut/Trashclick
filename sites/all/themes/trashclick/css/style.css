@@ -49,7 +49,7 @@ ul.pagination li.active a:hover, ul.pagination li a:hover, ul.pagination li a:fo
 
 
 div.strip {text-align:center; background:black; padding:3px 0px;}
-div.strip span {padding-left:6px; color:white;}
+div.strip span {padding-left:6px; color:white; display:none;} /* theme for size */
 li.statistics_counter { display:none;}
 
 
@@ -90,31 +90,31 @@ div.breadcrumb a,  div#overlay p, div#overlay select, div#overlay select.form-se
 div.main-container {width:98%; max-width:2100px;padding:2%; background:#f5ebcf;   box-shadow: 0 0 10px #aaa inset;}
 
 @media(min-width:2000px) {
-div.main-container {margin:30px auto 0 auto;}
+div.main-container {margin:40px auto 0 auto;}
 }
 
 @media(min-width:1600px) and (max-width:1999px){
-div.main-container {margin:27px auto 0 auto;}
+div.main-container {margin:37px auto 0 auto;}
 }
 
 @media(min-width:1200px) and (max-width:1599px){
-div.main-container {margin:24px auto 0 auto;}
+div.main-container {margin:34px auto 0 auto;}
 }
 
 @media(min-width:992px) and (max-width:1199px){
-div.main-container {margin:21px auto 0 auto;}
+div.main-container {margin:31px auto 0 auto;}
 }
 
 @media(min-width:768px) and (max-width:991px){
-div.main-container {margin:18px auto 0 auto;}
+div.main-container {margin:28px auto 0 auto;}
 }
 
 @media(min-width:481px) and (max-width:767px){
-div.main-container {margin:15px auto 0 auto;}
+div.main-container {margin:35px auto 0 auto;}
 }
 
 @media (max-width:480px){
-div.main-container {width:96%; margin:15px auto; padding:4%; }
+div.main-container {width:96%; margin:35px auto; padding:4%; }
 
 }
 

@@ -409,6 +409,7 @@ body.node-type-trashlist div.group-left { width:41%;}
 body.node-type-trashlist div.group-middle { width:18%; padding:1%;}
 body.node-type-trashlist div.group-right { width:40%;}
 body.node-type-trashlist div.group-right div.views-column.views-column{width:46%;}
+div.group-left div.field-items li {padding:6px 0px;border-bottom:1px solid #ccc;}
 }
 
 @media(min-width:1600px) and (max-width:1999px){
@@ -416,6 +417,7 @@ body.node-type-trashlist div.group-left { width:38%;}
 body.node-type-trashlist div.group-middle { width:20%; padding:1%;}
 body.node-type-trashlist div.group-right { width:41%;}
 body.node-type-trashlist div.group-right div.views-column.views-column{width:46%;}
+div.group-left div.field-items li {padding:6px 0px;border-bottom:1px solid #ccc;}
 }
 
 @media(min-width:1200px) and (max-width:1599px){
@@ -423,6 +425,7 @@ body.node-type-trashlist div.group-left { width:35%;}
 body.node-type-trashlist div.group-middle { width:22%; padding:1%;}
 body.node-type-trashlist div.group-right { width:41%;}
 body.node-type-trashlist div.group-right div.views-column.views-column{width:47%;}
+div.group-left div.field-items li {padding:6px 0px;border-bottom:1px solid #ccc;}
 }
 
 @media(min-width:992px) and (max-width:1199px){
@@ -430,6 +433,7 @@ body.node-type-trashlist div.group-left { width:45%;}
 body.node-type-trashlist div.group-middle { width:22%; padding:1%;}
 body.node-type-trashlist div.group-right { width:30%;}
 body.node-type-trashlist div.group-right div.views-column.views-column{width:100%;}
+div.group-left div.field-items li {padding:6px 0px;border-bottom:1px solid #ccc;}
 }
 
 @media(min-width:768px) and (max-width:991px){
@@ -437,6 +441,7 @@ body.node-type-trashlist div.group-right div.views-column.views-column{width:100
 body.node-type-trashlist div.group-middle { width:27%; padding:2%;}
 body.node-type-trashlist div.group-right { width:30%;}
 body.node-type-trashlist div.group-right div.views-column.views-column{width:100%;}
+div.group-left div.field-items li {padding:6px 0px;border-bottom:1px solid #ccc;}
 }
 
 @media(min-width:481px) and (max-width:767px){
@@ -444,6 +449,7 @@ body.node-type-trashlist div.group-right div.views-column.views-column{width:100
 body.node-type-trashlist div.group-middle { width:100%; padding:2%; margin-bottom:3%;}
 body.node-type-trashlist div.group-right { width:100%;}
 body.node-type-trashlist div.group-right div.views-column.views-column{width:100%;}
+div.group-left div.field-items li {padding:6px 0px;border-bottom:1px solid #ccc;}
 }
 
 @media (max-width:480px){

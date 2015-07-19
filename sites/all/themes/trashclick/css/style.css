@@ -389,6 +389,13 @@ body.node-type-trashlist div.group-left div.field-name-field-list-source-url a {
 body.node-type-trashlist div.group-right {}
 body.node-type-trashlist div.group-right div.views-column.views-column{}
 
+body.node-type-trashlist div.group-right ol.home-minified, .front div.node-trashlist ol.home-minified,
+body.node-type-trashlist div.group-right ul.home-minified, .front div.node-trashlist ul.home-minified{font-size:90%;}
+
+
+body.node-type-trashlist div.group-right ol.home-minified li, .front div.node-trashlist ol.home-minified li,
+body.node-type-trashlist div.group-right ul.home-minified li, .front div.node-trashlist ul.home-minified li{line-height:140% !important;}
+
 div.group-left div.field-items ul, div.group-left div.field-items ol { margin-top: 20px;padding-left: 16px;}
 div.group-left div.field-items li { font-size:1.25em; border-bottom:1px solid pink;}
 

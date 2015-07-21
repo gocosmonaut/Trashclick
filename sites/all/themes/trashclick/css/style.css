@@ -354,8 +354,10 @@ div.views-column.views-column div.node blockquote.image-field-caption p { bottom
 
 /* TEASER */
 
-div.views-column.views-column div.node div.field-name-field-body-count{background: rgba(0, 0, 0, 0) none repeat scroll 0 0;border: 0 none !important;  padding: 0;margin-top:-55px;position: absolute;text-align: center;}
-div.views-column.views-column div.node div.field-name-field-body-count  p.node-reads {background: black; repeat scroll 0 0 !important;top:0px;left:3px;color: white; border-radius:0px; font-size: 0.8em; padding: 3px 5px 3px 6px; position: relative;}
+div.views-column.views-column div.node div.field-name-field-body-count{background: rgba(0, 0, 0, 0) none repeat scroll 0 0;border: 0 none !important;  padding: 0;margin-top:-57px;position: absolute;text-align: center;}
+div.views-column.views-column div.node div.field-name-field-body-count  p.node-reads {background: rgba(0, 0, 0, 0.5)!important;top:0px;left:8px;color: white; border-radius:50%; font-size: 0.8em; padding: 3px 5px 3px 6px; position: relative; border-bottom: 2px inset white;
+    border-radius: 50%;
+    border-top: 2px inset magenta;}
 div.views-column.views-column div.node div.field-name-field-body-count  p.node-reads img {width:12px !important; height:auto !important; margin:0px 4px 2px 0px;}
 
 @media(min-width:2000px) {

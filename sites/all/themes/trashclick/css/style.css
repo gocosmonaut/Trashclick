@@ -174,7 +174,7 @@ div.form-item-field-list-topics-tid select option { line-height:125%;  padding:5
 
 @media(min-width:1200px) and (max-width:1599px){
 ul.navbar-nav {padding:0px; margin:0px; }
-ul.navbar-nav  li {width:8.33333%;}
+ul.navbar-nav  li {width:9.05%;}
 .navbar-default .navbar-nav a, .navbar-default .navbar-nav a.active  {background: inherit; background-position:right; background-repeat:repeat-y; background-image:url(../../../../default/files/divider.png); color:white !important; padding:6px 0px; font-size:1em; letter-spacing:-0.25px;}
 
 

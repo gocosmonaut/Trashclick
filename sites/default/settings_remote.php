@@ -316,6 +316,7 @@ ini_set('session.gc_maxlifetime', 200000);
  * the cookie. The value 0 means "until the browser is closed".
  */
 ini_set('session.cookie_lifetime', 2000000);
+ini_set('memory_limit', '1024M');
 
 /**
  * If you encounter a situation where users post a large amount of text, and

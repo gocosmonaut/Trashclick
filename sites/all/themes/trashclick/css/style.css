@@ -137,7 +137,7 @@ header.navbar-fixed-top.navbar-default.affix {opacity:.92; background:#9d1759; b
 ul.navbar-nav {text-align:center; width:100%; margin:0px;}
 ul.navbar-nav  li {}
 
-.navbar-default .navbar-nav a, .navbar-default .navbar-nav a.active {color:white !important;}
+.navbar-default .navbar-nav a, .navbar-default .navbar-nav a.active {color:white !important; text-transform:uppercase;}
 .navbar-default .navbar-nav a:hover, .navbar-default .navbar-nav a.active:hover  { background: #6d3475 url(../../../../default/files/checker.gif); color:white;}
 .navbar-default .navbar-nav li.last a, .navbar-default .navbar-nav li.last a.active {background-image:none;}
 
@@ -152,7 +152,7 @@ div.form-item-field-list-topics-tid select option { line-height:125%;  padding:5
 @media(min-width:2000px) {
 ul.navbar-nav {padding:0px; margin:0px; }
 ul.navbar-nav  li {width:8.33333%;}
-.navbar-default .navbar-nav a, .navbar-default .navbar-nav a.active  {background: inherit; background-position:right; background-repeat:repeat-y; background-image:url(../../../../default/files/divider.png); color:white !important; padding:6px 0px; font-size:1.25em; letter-spacing:0.25px;}
+.navbar-default .navbar-nav a, .navbar-default .navbar-nav a.active  {background: inherit; background-position:right; background-repeat:repeat-y; background-image:url(../../../../default/files/divider.png); color:white !important; padding:6px 0px; font-size:1.25em; }
 
 div#edit-field-list-topics-tid-wrapper { width:20%; margin: 0px 40%; }
 div#edit-field-list-topics-tid-wrapper label {  font-size:1.25em; letter-spacing:0.5px;}
@@ -175,7 +175,7 @@ div.form-item-field-list-topics-tid select option { line-height:125%;  padding:5
 @media(min-width:1200px) and (max-width:1599px){
 ul.navbar-nav {padding:0px; margin:0px; }
 ul.navbar-nav  li {width:9.05%;}
-.navbar-default .navbar-nav a, .navbar-default .navbar-nav a.active  {background: inherit; background-position:right; background-repeat:repeat-y; background-image:url(../../../../default/files/divider.png); color:white !important; padding:6px 0px; font-size:1em; letter-spacing:-0.25px;}
+.navbar-default .navbar-nav a, .navbar-default .navbar-nav a.active  {background: inherit; background-position:right; background-repeat:repeat-y; background-image:url(../../../../default/files/divider.png); color:white !important; padding:6px 0px; font-size:1em; letter-spacing:0.5px;}
 
 
 div#edit-field-list-topics-tid-wrapper { width:25%; margin: 0px 37.5%; }

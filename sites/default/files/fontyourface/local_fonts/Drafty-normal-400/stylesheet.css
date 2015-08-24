@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Drafty';
+  src: url("NeutraDisplay-DraftAlt.ttf") format("truetype"), url("NeutraDisplay-DraftAlt.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}

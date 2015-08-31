@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Carr';
+  src: url("Carrosserie.ttf") format("truetype"), url("Carrosserie.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}

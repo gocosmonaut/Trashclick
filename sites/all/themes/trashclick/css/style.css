@@ -45,6 +45,8 @@ ul.pagination li.active a {background:white; border:none; border:0px; color:#999
 ul.pagination li.active a:hover {border:0px;}
 ul.pagination li.active a:hover, ul.pagination li a:hover, ul.pagination li a:focus  {background:#21729b; outline-offset:0; cursor:pointer;}
 
+body.node-type-trashlist section.col-sm-12 {padding:0px;}
+
 p, a, h1, h2, h3, h4, h5, h6, li, ul, ol, span {text-rendering: optimizeLegibility;}
 
 div.strip {text-align:center; background:white; padding:3px 0px;}
@@ -316,18 +318,32 @@ div.views-column.views-column div.node blockquote.image-field-caption {padding:0
 div.views-column.views-column div.node blockquote.image-field-caption p { bottom: 0; color: white; float: left; font-size: 0.8em;text-align:left;margin-top: -30px;padding: 3px 5px 3px 10px;position: relative;text-shadow: 1px 1px 1px black;}
 
 @media(min-width:2000px) {
-	div.view-id-front div.views-column.views-column {width:15.25%; float:left;margin:0% 2% 0% 2%;}
+	/* div.view-id-front div.views-column.views-column {width:40%; float:left;margin:0% 2% 0% 0%;} */
+	div#lacklister div.panel-panel.panel-col { width:54%; margin:0% 2%; background:#444; padding:1%;}
+	div#lacklister div.panel-panel.panel-col-first,
+	div#lacklister div.panel-panel.panel-col-last { width:21%; padding:1%; margin:0;}
+	div#lacklister div.panel-panel.panel-col-first blockquote,
+	div#lacklister div.panel-panel.panel-col-last blockquote {display:none;}
+	div#lacklister div.panel-panel.panel-col-first { background:#aaa;}
+	div#lacklister div.panel-panel.panel-col-last { background:#bbb;}
+	div#lacklister div.panel-panel .inside {margin:0%;}
+	div#lacklister div.panel-panel.panel-col div.field-name-field-list-image {background:#555;}
+	div#lacklister div.panel-panel.panel-col div.field-name-field-list-image blockquote {float:right; width:22%; border:0px;}
+	div#lacklister div.panel-panel.panel-col div.field-name-field-list-image img {width:78%; height:auto;}
+	div#lacklister div.panel-panel.panel-col div.pane-node-field-about-the-source {float:right; width:30%;}
+	div#lacklister div.panel-panel.panel-col div.pane-node-body {width:65%; float:left;}
+	
 	.front div.view-id-front div.views-column.views-column {width:15.25%; float:left;margin:0% 1.625% 0% 0%;}
 }
 
 @media(min-width:1600px) and (max-width:1999px){
 	.front div.view-id-front div.views-column.views-column {width:15.25%; float:left;margin:0% 1.625% 0% 0%;}
-	div.view-id-front div.views-column.views-column {width:15.25%; float:left;margin:0% 2% 0% 2%;}
+	div.view-id-front div.views-column.views-column {/* width:15.25%;  */float:left;margin:0% 2% 0% 2%;}
 }
 
 @media(min-width:1200px) and (max-width:1599px){
 	.front div.view-id-front div.views-column.views-column {width:15.25%; float:left;margin:0% 1.625% 0% 0%;}
-	div.view-id-front div.views-column.views-column {width:17%; float:left;margin:0% 4% 0% 0%;}
+	div.view-id-front div.views-column.views-column {/* width:17%; */ float:left;margin:0% 4% 0% 0%;}
 }
 
 @media(min-width:992px) and (max-width:1199px){

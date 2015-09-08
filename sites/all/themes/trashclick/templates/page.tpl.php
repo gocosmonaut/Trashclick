@@ -158,7 +158,10 @@
       <?php if (!empty($action_links)): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
+      <div>         <?php print render($page['node_left']); ?>
       <?php print render($page['content']); ?>
+
+         </div>
     </section>
 
     <?php if (!empty($page['sidebar_second'])): ?>
